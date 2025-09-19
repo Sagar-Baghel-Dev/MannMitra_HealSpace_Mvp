@@ -1,0 +1,383 @@
+/* Appointment Page Styles */
+
+.appointment-page-bg {
+  background: #f6faff;
+  min-height: 100vh;
+  padding: 0;
+}
+.appointment-container {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 1.5rem;
+}
+.appointment-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(75,127,214,0.08);
+  padding: 2rem 1.2rem 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.appointment-header-card {
+  margin-bottom: 30px;
+}
+.appointment-title {
+  color: #4B7FD6;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.appointment-title.success {
+  color: #2E8B57;
+  font-size: 1.3rem;
+}
+.appointment-desc {
+  color: #444;
+  font-size: 1.08rem;
+  margin-bottom: 0;
+}
+.appointment-card-row {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.counsellor-type-card {
+  min-width: 220px;
+  max-width: 260px;
+  flex: 1 1 220px;
+  background: #f6fef9;
+  border: 2px solid #4B7FD6;
+  cursor: pointer;
+  text-align: center;
+  transition: box-shadow 0.2s, background 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+}
+.counsellor-type-card:hover {
+  box-shadow: 0 4px 18px 0 rgba(75,127,214,0.13);
+  background: #eaf3fa;
+}
+.counsellor-icon {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.counsellor-title {
+  font-weight: 700;
+  font-size: 1.18rem;
+  color: #4B7FD6;
+  margin-bottom: 10px;
+}
+.counsellor-desc {
+  color: #444;
+  font-size: 1.01rem;
+}
+.specialization-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.specialization-btn {
+  background: #f6fef9;
+  color: #4B7FD6;
+  border: 2px solid #4B7FD6;
+  border-radius: 16px;
+  padding: 0.7em 1.2em;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+.specialization-btn.selected {
+  background: #4B7FD6;
+  color: #fff;
+}
+.available-counsellors-label {
+  font-weight: 600;
+  color: #2E8B57;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.counsellor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.counsellor-list-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 1px 6px 0 rgba(75,127,214,0.06);
+  padding: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  border: 2px solid #2E8B57;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.counsellor-list-card:hover {
+  background: #f6fef9;
+  box-shadow: 0 4px 18px 0 rgba(46,139,87,0.13);
+}
+.counsellor-list-icon {
+  font-size: 28px;
+}
+.counsellor-list-info {
+  text-align: left;
+}
+.counsellor-list-name {
+  font-weight: 600;
+  color: #2E8B57;
+  font-size: 16px;
+}
+.counsellor-list-desc {
+  color: #444;
+  font-size: 13px;
+}
+.college-counsellor-label {
+  font-weight: 600;
+  color: #2E8B57;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.college-counsellor-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.college-counsellor-name {
+  font-weight: 600;
+  color: #2E8B57;
+  font-size: 16px;
+}
+.college-counsellor-desc {
+  color: #444;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+.appointment-btn {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0.7em 1.2em;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+.appointment-btn.next-btn {
+  margin-top: 18px;
+  background: #4B7FD6;
+}
+.appointment-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.appointment-detail-row {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.appointment-label {
+  font-weight: 500;
+  color: #2E8B57;
+  font-size: 15px;
+}
+.appointment-slot-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.appointment-slot-btn {
+  background: #f6fef9;
+  color: #4B7FD6;
+  border: 2px solid #4B7FD6;
+  border-radius: 16px;
+  padding: 0.7em 1.2em;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+.appointment-slot-btn.selected {
+  background: #4B7FD6;
+  color: #fff;
+}
+.appointment-mode-btn {
+  background: #f6fef9;
+  color: #2E8B57;
+  border: 2px solid #2E8B57;
+  border-radius: 16px;
+  padding: 0.7em 1.2em;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.appointment-mode-btn.selected {
+  background: #2E8B57;
+  color: #fff;
+}
+.appointment-input {
+  border: 1px solid #4B7FD6;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  font-size: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.appointment-textarea {
+  min-height: 60px;
+}
+.appointment-success-details {
+  margin-bottom: 10px;
+}
+.appointment-success-counsellor {
+  font-weight: 600;
+  color: #4B7FD6;
+  font-size: 16px;
+}
+.appointment-success-desc {
+  color: #444;
+  font-size: 13px;
+}
+.appointment-success-spec {
+  color: #2E8B57;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.appointment-success-slot {
+  color: #2E8B57;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.appointment-success-btn-row {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.appointment-btn.reschedule {
+  background: #4B7FD6;
+}
+.appointment-btn.cancel {
+  background: #EF5350;
+}
+.appointment-btn.return-home {
+  background: #2E8B57;
+}
+.appointment-success-note {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #888;
+}
+.appointment-success-emergency {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #EF5350;
+}
+
+/* Dark mode support */
+.dark-mode .appointment-page-bg {
+  background: #181f2a;
+}
+.dark-mode .appointment-card {
+  background: #232b39;
+  box-shadow: 0 2px 16px 0 rgba(46,139,87,0.10);
+}
+.dark-mode .appointment-title,
+.dark-mode .counsellor-title,
+.dark-mode .available-counsellors-label,
+.dark-mode .college-counsellor-label {
+  color: #7ecfa7;
+}
+.dark-mode .appointment-desc,
+.dark-mode .counsellor-desc,
+.dark-mode .counsellor-list-desc,
+.dark-mode .college-counsellor-desc,
+.dark-mode .appointment-success-desc,
+.dark-mode .appointment-success-note {
+  color: #bfc9d9;
+}
+.dark-mode .counsellor-type-card,
+.dark-mode .counsellor-list-card {
+  background: #232b39;
+  border-color: #7ecfa7;
+}
+.dark-mode .counsellor-type-card:hover,
+.dark-mode .counsellor-list-card:hover {
+  background: #1a222e;
+}
+.dark-mode .specialization-btn {
+  background: #232b39;
+  color: #7ecfa7;
+  border-color: #7ecfa7;
+}
+.dark-mode .specialization-btn.selected {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .appointment-label,
+.dark-mode .counsellor-list-name,
+.dark-mode .appointment-success-counsellor,
+.dark-mode .appointment-success-spec,
+.dark-mode .appointment-success-slot {
+  color: #7ecfa7;
+}
+.dark-mode .appointment-slot-btn {
+  background: #232b39;
+  color: #7ecfa7;
+  border-color: #7ecfa7;
+}
+.dark-mode .appointment-slot-btn.selected {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .appointment-mode-btn {
+  background: #232b39;
+  color: #7ecfa7;
+  border-color: #7ecfa7;
+}
+.dark-mode .appointment-mode-btn.selected {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .appointment-input,
+.dark-mode .appointment-textarea {
+  background: #181f2a;
+  color: #fff;
+  border-color: #7ecfa7;
+}
+.dark-mode .appointment-btn {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .appointment-btn.next-btn {
+  background: #4B7FD6;
+  color: #fff;
+}
+.dark-mode .appointment-btn.cancel {
+  background: #EF5350;
+  color: #fff;
+}
+.dark-mode .appointment-btn.return-home {
+  background: #2E8B57;
+  color: #fff;
+}
+.dark-mode .appointment-success-emergency {
+  color: #EF5350;
+}

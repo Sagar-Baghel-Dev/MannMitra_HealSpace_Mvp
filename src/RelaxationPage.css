@@ -1,0 +1,490 @@
+/* --- Dark Mode Styles for Relaxation Pages --- */
+.dark-mode .relaxation-page {
+  background: linear-gradient(135deg, #23272a 0%, #181c1f 100%);
+  color: #e6e6e6;
+}
+.dark-mode .relax-breathing,
+.dark-mode .relax-music,
+.dark-mode .relax-journals,
+.dark-mode .relax-articles,
+.dark-mode .relax-videos,
+.dark-mode .relax-games {
+  background: #23272a;
+  color: #e6e6e6;
+  box-shadow: 0 2px 16px 0 rgba(30,40,40,0.13);
+}
+.dark-mode .relax-breathing h2,
+.dark-mode .relax-music h2,
+.dark-mode .relax-journals h2,
+.dark-mode .relax-articles h2,
+.dark-mode .relax-videos h2,
+.dark-mode .relax-games h2 {
+  color: #7fffd4;
+}
+.dark-mode .music-card,
+.dark-mode .journal-card,
+.dark-mode .article-card,
+.dark-mode .video-card,
+.dark-mode .game-card {
+  background: #181c1f;
+  color: #e6e6e6;
+  box-shadow: 0 1px 8px 0 rgba(30,40,40,0.10);
+}
+.dark-mode .relax-breathing button,
+.dark-mode .relax-music button,
+.dark-mode .relax-journals button,
+.dark-mode .relax-articles button,
+.dark-mode .relax-videos button,
+.dark-mode .relax-games button {
+  background: #7fffd4;
+  color: #23272a;
+}
+.dark-mode .relax-breathing button:hover,
+.dark-mode .relax-music button:hover,
+.dark-mode .relax-journals button:hover,
+.dark-mode .relax-articles button:hover,
+.dark-mode .relax-videos button:hover,
+.dark-mode .relax-games button:hover {
+  background: #b2dfdb;
+  color: #181c1f;
+}
+.dark-mode .relax-breathing select,
+.dark-mode .relax-journals textarea {
+  background: #23272a;
+  color: #e6e6e6;
+  border: 1px solid #7fffd4;
+}
+.dark-mode .relax-hub-cta {
+  background: #7fffd4;
+  color: #23272a;
+}
+.dark-mode .relax-hub-cta:hover {
+  background: #b2dfdb;
+  color: #181c1f;
+}
+.dark-mode .relax-back-btn {
+  background: #23272a;
+  color: #7fffd4;
+}
+.dark-mode .relax-back-btn:hover {
+  background: #181c1f;
+  color: #fff;
+}
+/* --- Unified Section and Heading Styles --- */
+.relax-breathing,
+.relax-music,
+.relax-journals,
+.relax-articles,
+.relax-videos,
+.relax-games {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(46,139,87,0.08);
+  margin: 2.5rem auto 2rem auto;
+  max-width: 700px;
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+}
+
+.relax-breathing h2,
+.relax-music h2,
+.relax-journals h2,
+.relax-articles h2,
+.relax-videos h2,
+.relax-games h2 {
+  font-size: 2rem;
+  color: #2E8B57;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* --- Unified Card Styles --- */
+.music-card,
+.journal-card,
+.article-card,
+.video-card,
+.game-card {
+  background: #f6fef9;
+  border-radius: 12px;
+  padding: 1.1rem;
+  min-width: 160px;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+  margin-bottom: 0.7rem;
+}
+
+/* --- Unified List/Container Styles --- */
+.music-cards,
+.article-cards,
+.video-cards,
+.games-list,
+.journal-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* --- Unified Controls --- */
+.relax-breathing button,
+.relax-music button,
+.relax-journals button,
+.relax-articles button,
+.relax-videos button,
+.relax-games button,
+.relax-journals textarea,
+.relax-breathing select {
+  font-family: inherit;
+  font-size: 1rem;
+}
+.relax-breathing button,
+.relax-music button,
+.relax-journals button,
+.relax-articles button,
+.relax-videos button,
+.relax-games button {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+  margin-right: 0.5rem;
+}
+.relax-breathing button:last-child,
+.relax-music button:last-child,
+.relax-journals button:last-child,
+.relax-articles button:last-child,
+.relax-videos button:last-child,
+.relax-games button:last-child {
+  margin-right: 0;
+}
+.relax-breathing button:hover,
+.relax-music button:hover,
+.relax-journals button:hover,
+.relax-articles button:hover,
+.relax-videos button:hover,
+.relax-games button:hover {
+  background: #256d45;
+}
+.relax-breathing select {
+  border-radius: 6px;
+  border: 1px solid #b2dfdb;
+  padding: 0.4em 0.8em;
+  margin-left: 0.5rem;
+}
+.relax-journals textarea {
+  min-height: 60px;
+  border-radius: 8px;
+  border: 1px solid #b2dfdb;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Unified Back Button --- */
+.relax-back-btn {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  background: #e0f7fa;
+  color: #2E8B57;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+  transition: background 0.2s, color 0.2s;
+}
+.relax-back-btn:hover {
+  background: #b2dfdb;
+  color: #256d45;
+}
+
+/* --- Remove extra margin from last card in row --- */
+.music-cards > *:last-child,
+.article-cards > *:last-child,
+.video-cards > *:last-child,
+.games-list > *:last-child,
+.journal-list > *:last-child {
+  margin-bottom: 0;
+}
+/* Ensure all sub-feature page buttons are seagreen */
+.relax-breathing button,
+.relax-music button,
+.relax-journals button,
+.relax-articles button,
+.relax-videos button,
+.relax-games button {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.relax-breathing button:hover,
+.relax-music button:hover,
+.relax-journals button:hover,
+.relax-articles button:hover,
+.relax-videos button:hover,
+.relax-games button:hover {
+  background: #256d45;
+}
+/* Back button for sub-feature pages */
+.relax-back-btn {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  background: #e0f7fa;
+  color: #2E8B57;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+  transition: background 0.2s, color 0.2s;
+}
+.relax-back-btn:hover {
+  background: #b2dfdb;
+  color: #256d45;
+}
+/* Relaxation Hub CTA styles */
+.relax-hub-options {
+  margin-top: 2rem;
+}
+.relax-hub-options.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: stretch;
+  max-width: 700px;
+  margin: 2rem auto 0 auto;
+}
+.relax-hub-cta {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.13rem;
+  font-weight: 600;
+  padding: 1.1em 2.2em;
+  text-decoration: none;
+  box-shadow: 0 2px 12px 0 rgba(46,139,87,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.relax-hub-cta:hover {
+  background: #256d45;
+  box-shadow: 0 4px 24px 0 rgba(46,139,87,0.18);
+}
+/* Make all buttons seagreen for RelaxationPage */
+.relaxation-page button {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.relaxation-page button:hover {
+  background: #256d45;
+}
+.relaxation-page {
+  background: linear-gradient(135deg, #e0f7fa 0%, #f6fef9 100%);
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+.relax-breathing, .relax-music, .relax-journals, .relax-articles, .relax-videos, .relax-games {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(46,139,87,0.08);
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 2rem 1.2rem 1.5rem;
+}
+.breathing-circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.breathing-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #b2dfdb 0%, #80cbc4 100%);
+  margin-bottom: 1rem;
+  transition: transform 4s ease-in-out;
+}
+.breathing-circle.animate {
+  animation: breathing 4s infinite;
+}
+@keyframes breathing {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.3); }
+  50% { transform: scale(1); }
+  75% { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
+.breathing-instructions {
+  font-size: 1.1rem;
+  color: #2E8B57;
+  margin-bottom: 0.5rem;
+}
+.breathing-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.music-cards {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+.music-card {
+  background: #f6fef9;
+  border-radius: 12px;
+  padding: 1rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.music-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.music-player-bar {
+  background: #e0f7fa;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  text-align: center;
+  color: #2E8B57;
+  font-weight: 600;
+}
+.relax-journals .journal-add {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.relax-journals textarea {
+  min-height: 60px;
+  border-radius: 8px;
+  border: 1px solid #b2dfdb;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+.journal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.journal-card {
+  background: #f6fef9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.journal-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+.article-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.article-card {
+  background: #f6fef9;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 160px;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.article-title {
+  font-weight: 700;
+  color: #2E8B57;
+  margin-bottom: 0.3rem;
+}
+.article-lang {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+.article-tags span {
+  background: #b2dfdb;
+  color: #2E8B57;
+  border-radius: 6px;
+  padding: 0.2em 0.7em;
+  margin-right: 0.3em;
+  font-size: 0.9em;
+}
+.video-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.video-card {
+  background: #f6fef9;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.video-card img {
+  width: 100px;
+  height: 60px;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+.games-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.game-card {
+  background: #f6fef9;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 rgba(46,139,87,0.07);
+}
+.relax-footer {
+  background: linear-gradient(90deg, #b2dfdb 0%, #2E8B57 100%);
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0 0.7rem;
+  border-radius: 18px 18px 0 0;
+  margin-top: 2.5rem;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 0.5em;
+}
+.footer-copyright {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,23 @@
+{
+  "short_name": "HealSpace",
+  "name": "HealSpace - Trauma Recovery Platform",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2E8B57",
+  "theme_color": "#2E8B57",
+  "orientation": "portrait",
+  "description": "A digital trauma recovery and resilience platform for students.",
+  "scope": "/"
+}

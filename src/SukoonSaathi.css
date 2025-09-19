@@ -1,0 +1,165 @@
+/* SukoonSaathi Chatbot Styles */
+.sukoon-chatbot-page {
+  background: #f6faff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sukoon-chatbot-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(75,127,214,0.10);
+  width: 100%;
+  max-width: 420px;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.sukoon-chatbot-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #2E8B57;
+  color: #fff;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  padding: 1.1rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.sukoon-bot-avatar {
+  font-size: 1.7rem;
+}
+.sukoon-bot-title {
+  font-size: 1.1rem;
+}
+.sukoon-chatbot-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f6faff;
+}
+.sukoon-chatbot-msg {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.sukoon-chatbot-msg.user {
+  flex-direction: row-reverse;
+}
+.sukoon-chatbot-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #eaf3fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4B7FD6;
+}
+.sukoon-chatbot-msg.user .sukoon-chatbot-avatar {
+  background: #d1e7ff;
+  color: #2E8B57;
+}
+.sukoon-chatbot-bubble {
+  background: #fff;
+  color: #222;
+  border-radius: 16px;
+  padding: 0.7em 1.1em;
+  font-size: 15px;
+  max-width: 260px;
+  text-align: left;
+  box-shadow: 0 1px 6px 0 rgba(46,139,87,0.06);
+}
+.sukoon-chatbot-msg.user .sukoon-chatbot-bubble {
+  background: #eaf3fa;
+  color: #2E8B57;
+}
+.sukoon-chatbot-input-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  padding: 0.7rem 1.2rem;
+  background: #f6faff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.sukoon-chatbot-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: transparent;
+  color: #222;
+  padding: 0.5em 0.2em;
+}
+.sukoon-chatbot-send {
+  background: #2E8B57;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+.sukoon-chatbot-send:hover {
+  background: #256b45;
+}
+
+/* Dark mode support */
+.dark-mode .sukoon-chatbot-page {
+  background: #181f2a;
+}
+.dark-mode .sukoon-chatbot-container {
+  background: #232b39;
+  box-shadow: 0 2px 16px 0 rgba(46,139,87,0.13);
+}
+.dark-mode .sukoon-chatbot-header {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .sukoon-chatbot-messages {
+  background: #181f2a;
+}
+.dark-mode .sukoon-chatbot-bubble {
+  background: #232b39;
+  color: #bfc9d9;
+}
+.dark-mode .sukoon-chatbot-msg.user .sukoon-chatbot-bubble {
+  background: #1a222e;
+  color: #7ecfa7;
+}
+.dark-mode .sukoon-chatbot-avatar {
+  background: #232b39;
+  color: #7ecfa7;
+}
+.dark-mode .sukoon-chatbot-msg.user .sukoon-chatbot-avatar {
+  background: #1a222e;
+  color: #7ecfa7;
+}
+.dark-mode .sukoon-chatbot-input-row {
+  background: #232b39;
+  border-top: 1px solid #232b39;
+}
+.dark-mode .sukoon-chatbot-input {
+  color: #fff;
+}
+.dark-mode .sukoon-chatbot-send {
+  background: #7ecfa7;
+  color: #232b39;
+}
+.dark-mode .sukoon-chatbot-send:hover {
+  background: #2E8B57;
+  color: #fff;
+}
