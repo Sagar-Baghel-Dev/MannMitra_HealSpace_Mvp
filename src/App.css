@@ -1,3 +1,71 @@
+/* Records Card Layout Rows */
+.record-icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 0.7rem;
+  color: #2E8B57;
+  font-size: 3rem;
+}
+.record-label-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #2E8B57;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.record-value-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 0.6rem;
+  color: #2E8B57;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.record-card{
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 4px 24px 0 rgba(46,139,87,0.13);
+  padding: 2.7rem 2.9rem 2.1rem 2.9rem;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.22s, transform 0.22s, border 0.18s;
+  border: 2.5px solid #e0f7fa;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  color: #2E8B57;
+  height: 30vh;
+}
+
+.records-title{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #17613c;
+  margin-bottom: 2.7rem;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 12px #e0f7fa;
+  font-weight: bold;
+}
+
+.records-cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+  height: 80vh;
+}
+
 /* Floating SOS Button Styles */
 .sos-fab {
   position: fixed;
@@ -152,7 +220,11 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+.role-select-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
 }
 .profile-name {
   font-size: 1.5rem;
@@ -290,10 +362,9 @@
   flex-wrap: wrap;
   margin-top: 1.2rem;
 }
-.record-card {
-  background: linear-gradient(135deg, #f6fef9 60%, #e0f7fa 100%);
+  background: #fff;
   border-radius: 22px;
-  box-shadow: 0 2px 16px 0 rgba(46,139,87,0.10);
+  box-shadow: 0 4px 24px 0 rgba(46,139,87,0.13);
   padding: 2.7rem 2.9rem 2.1rem 2.9rem;
   min-width: 240px;
   display: flex;
@@ -304,6 +375,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 0.5rem;
+  color: #2E8B57;
 }
 .record-card::before {
   content: "";
@@ -368,14 +440,14 @@
   font-weight: 700;
   margin-bottom: 0.5rem;
   text-align: center;
-  color: #17613c;
+  color: #2E8B57;
   letter-spacing: 0.5px;
   z-index: 1;
 }
 .record-value {
   font-size: 2.2rem;
   font-weight: 900;
-  color: #256d45;
+  color: #2E8B57;
   margin-top: 0.3rem;
   text-align: center;
   letter-spacing: 1px;
