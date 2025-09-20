@@ -1,22 +1,37 @@
+Heal, Grow, Thrive... 🌱
 
-# HealSpace
+Overview
+HealSpace is a modern, installable web app for trauma recovery, resilience, and mental health support. It offers a safe, accessible, and multilingual environment for students and admins.
 
-HealSpace is a prototype web application for mental health care, built with React and Vite.
+✨ Features
+Role-based Dashboards: Separate experiences for students and admins
+Assessment & Relaxation: Self-assessment, breathing, music, and journaling tools
+Peer Support: Community and support features
+SukoonSaathi Chatbot: 24/7 AI-powered support
+Emergency SOS: Floating button for instant help
+PWA: Installable, offline-ready, mobile-friendly
+Multilingual: English & Urdu (with instant toggle)
+Modern UI: Responsive, beautiful, and accessible
 
-## Getting Started
+🚀 Getting Started
+Install dependencies:
+Start the development server:
+Open in browser: Visit http://localhost:5173
 
-1. Install dependencies:
-	```
-npm install
-	```
-2. Start the development server:
-	```
-npm run dev
-	```
+🗂️ Project Structure
+src — Main React source code
+public — Static assets, manifest, icons
+README.md — This file
 
-## Project Structure
-- `src/` - Main source code for the React app
-- `public/` - Static assets
+🛠️ Tech Stack
+React + Vite
+i18next for translations
+react-router-dom
+PWA (manifest, service worker)
+CSS3
 
-## Purpose
-This project is a prototype for a mental health care web app. Features and UI will be added iteratively.
+🤝 Contributing
+Pull requests and feedback are welcome! For major changes, please open an issue first.
+
+📄 License
+MIT
